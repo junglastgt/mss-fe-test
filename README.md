@@ -4,8 +4,9 @@ Next.js로 작성된 프로젝트입니다.
 
 ## 실행
 
-- 개발서버 실행: `npm run dev`
-- 프로덕션 실행: `npm run build` 을 통해 빌드 이후 `npm run start`
+- 다음 URL에 배포되었습니다: https://mss-fe-test.vercel.app
+- 로컬에서 개발 모드로 실행: `npm run dev`
+- 로컬에서 프로덕션 모드로 실행: `npm run build` 을 통해 빌드 이후 `npm run start`
 
 ## 디렉토리
 
