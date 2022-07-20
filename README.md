@@ -32,6 +32,11 @@ Next.js로 작성된 프로젝트입니다.
 
 - `ProductList`: 상품 정보를 외부에서 불러오고, 필터링을 수행한 후 표시하는 컴포넌트
 
+## 주요 hooks
+
+- `useProductQuery`: 상품 정보를 연속적으로 불러오는 hook
+- `useInfiniteScroll`: 무한 스크롤을 삽입하기 위한 hook
+
 ## 사용한 외부 라이브러리
 
 - 스타일링: Emotion

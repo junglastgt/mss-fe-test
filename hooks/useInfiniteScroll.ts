@@ -1,7 +1,7 @@
 import { useRef, useCallback } from "react"
 
 interface UseInfiniteScrollParams {
-  /* 해당 요소가 viewport에 보일 떄 실행할 작업 */
+  /* 해당 요소가 viewport에 보일 때 실행할 작업 */
   onIntersect: () => void
 
   /* 추가로 가져올 데이터가 있는지 */
