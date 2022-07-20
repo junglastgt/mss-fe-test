@@ -1,16 +1,22 @@
 import { createContext, useState } from "react"
 
 import Header from "components/common/Header"
-import Filter from "./Filter"
-import ProductList from "./ProductList"
+import Filter from "components/search/Filter"
+import ProductList from "components/search/ProductList"
 
 import type { SearchFilter } from "types"
 
 /* '검색' 영역에서 사용할 전역 상태 */
 const initialState: SearchFilter = {
+  /* 검색창에 입력한 키워드 */
   keyword: "",
+
+  /* 검색창 열림 여부 */
   isSearchBarOpen: false,
+
+  /* 적용된 필터 */
   appliedCriteria: [],
+
   criteriaMetadata: {
     sale: { id: "sale", name: "세일상품", key: "isSale" },
     exclusive: { id: "exclusive", name: "단독상품", key: "isExclusive" },

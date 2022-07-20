@@ -1,4 +1,4 @@
-import React, { forwardRef, SyntheticEvent } from "react"
+import { forwardRef, SyntheticEvent } from "react"
 import { css } from "@emotion/react"
 import type { Product } from "types"
 import { URL } from "constants/"

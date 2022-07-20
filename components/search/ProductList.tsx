@@ -1,4 +1,4 @@
-import { useState, useContext, useMemo } from "react"
+import { useContext, useMemo } from "react"
 import { css, keyframes } from "@emotion/react"
 
 import ProductItem from "components/search/ProductItem"

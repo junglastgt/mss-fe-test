@@ -25,7 +25,7 @@ const useInfiniteScroll = ({ onIntersect, hasMore }: UseInfiniteScrollParams) =>
           onIntersect()
         },
         {
-          threshold: 1,
+          threshold: 0.8,
         }
       )
 
